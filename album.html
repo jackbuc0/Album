@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Album zdjęć</title>
+    <style>
+        .container {
+            display: flex;
+            flex-direction: row; /*column*/
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .image-box {
+            margin: 10px;
+            padding: 5px;
+            background-color: black;
+            color: white;
+            border-radius: 5px;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .image-box:hover {
+            transform: scale(1.07);
+            transition: all 1s;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2020/06/23/15/35/dragon-ball-z-5332918_640.jpg" alt="">
+            <div>UI Goku</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2020/07/02/12/50/vegeta-5362896_640.jpg" alt="">
+            <div>Vegeta SS</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2020/07/02/12/41/goku-5362869_640.jpg" alt="">
+            <div>Perfect UI Goku</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2021/10/04/18/21/goku-6680776_640.jpg" alt="">
+            <div>Kamehameha</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2022/03/20/16/29/gotenks-7081310_640.jpg" alt="">
+            <div>Goku SS3</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2020/04/15/02/39/wall-5044926_640.jpg" alt="">
+            <div>SS2 Goku</div>
+        </div>
+        <div class="image-box">
+            <img src="https://cdn.pixabay.com/photo/2020/10/16/23/35/goku-5660850_640.png" alt="">
+            <div>SS Goku</div>
+        </div>
+    </div>
+
+</body>
+</html>
